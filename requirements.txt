@@ -1,0 +1,5 @@
+OS:-
+	Compatible window OS for running WAMPP(7/8/8.1/10)
+Wampp version:-
+	-Wampserver-2.4x32 
+	-Wampserver-2.4x64
