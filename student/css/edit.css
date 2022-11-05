@@ -1,0 +1,12 @@
+.name{
+    width:29%;
+    display: inline-block;
+}
+.select{
+    border:1px solid rgb(201, 185, 185);
+    border-radius: 5px;
+    padding: 5px;;
+}
+.form{
+    margin:10px;
+}

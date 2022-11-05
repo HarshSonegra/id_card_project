@@ -1,0 +1,20 @@
+.change{
+    /* background-color: rgb(10, 10, 112); */
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    margin: 7px;
+    border:2px solid white;
+    border-radius:  20px 10px 20px 10px;
+    height: 30px;
+    width:auto;
+    padding: 10px;
+}
+.container{
+    margin-top: 35px;
+}
+.change:hover{
+    color: gray;
+    border: 2px solid rgb(8, 8, 63);
+    border-radius: 20px 10px 20px 10px;
+}
