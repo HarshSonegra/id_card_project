@@ -78,17 +78,9 @@
                                 echo "<td>$dte</td>";
                                 echo "<td>
                                     <div class='forms'>
-                                      <form action='./approve.php' method='post'>
-                                            <input type='hidden' name='enr' value=$enr>
-                                            <input type='submit' class='btn btn-success' value='Approve>'>
-                                        </form>
                                         <form action='./idcardview.php' method='post'>
                                             <input type='hidden' name='enr' value=$enr>
                                             <input type='submit' class='btn btn-primary' value='View>'>
-                                        </form>
-                                        <form action='./reject.php' method='post'>
-                                            <input type='hidden' name='enr' value=$enr>
-                                            <input type='submit' class='btn btn-danger' value='Reject>'>
                                         </form>
                                     </div>
                                 </td>";
