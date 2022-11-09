@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="css/style.css" type="text/css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="../admin/css/profile.css">
+  <script src="../admin/js/js.js"></script>
 </head>
 <body>
 
@@ -47,7 +48,13 @@
           echo "<a  style='color:white;' href='./requestagain.php'>request again</a>";
         }
         else{
-          echo "<h3 style='color:white;'>your request is proceded you can collect it now</h3>";
+          echo "<h3 style='color:white;'>your request is proceded you can view the card from below it now</h3>";
+          echo "<div class='forms'>
+          <form action='../admin/idcardview.php' method='post'>
+              <input type='hidden' name='enr' value=$enr>
+              <input type='submit' class='btn btn-primary' value='View>'>
+          </form>
+      </div>";
         }
       }
     ?>
